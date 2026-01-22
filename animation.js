@@ -46,3 +46,12 @@ const rond = document.getElementById("btn1");
 rond.addEventListener("click", () => {
   rond.classList.toggle("btn1");
 });
+//-------------------------------------------------//
+//-faire apparaitre un texte en enlevant la class--//
+//-------------------------------------------------//
+const boutton = document.getElementById("btn2");
+const text = document.getElementById("i");
+
+boutton.addEventListener("click", () => {
+  text.classList.toggle("i");
+});
