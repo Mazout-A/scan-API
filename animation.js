@@ -7,7 +7,7 @@ let isDeleting = false;
 //-------------------------------------------------//
 const dynamique = document.getElementById("dynamic-word");
 //-------------------------------------------------//
-//--------------------Function---------------------//
+//------------Function machienAEcrire--------------//
 //-------------------------------------------------//
 const typeEffect = () => {
   const currentWord = mots[motIndex];
@@ -38,3 +38,6 @@ const typeEffect = () => {
   setTimeout(typeEffect, typeSpeed);
 };
 typeEffect();
+//-------------------------------------------------//
+//------------Function machienAEcrire--------------//
+//-------------------------------------------------//
