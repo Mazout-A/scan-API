@@ -55,3 +55,12 @@ const text = document.getElementById("i");
 boutton.addEventListener("click", () => {
   text.classList.toggle("i");
 });
+//-------------------------------------------------//
+//-----prend texte dans input mettre dans le p-----//
+//-------------------------------------------------//
+const perroquet = document.getElementById("input-perroquet");
+const paragraphe = document.getElementById("texte-perroquet");
+
+perroquet.addEventListener("input", () => {
+  paragraphe.textContent = perroquet.value;
+});

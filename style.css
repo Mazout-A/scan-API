@@ -8,3 +8,30 @@
 .i {
   display: none;
 }
+
+.carte {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+input {
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+input:focus {
+  border-color: #3498db;
+}
+/* C'est ici que le texte va s'écrire */
+#texte-perroquet {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  min-height: 30px; /* Pour garder la place même vide */
+}
