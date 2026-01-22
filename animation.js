@@ -39,5 +39,10 @@ const typeEffect = () => {
 };
 typeEffect();
 //-------------------------------------------------//
-//------------Function machienAEcrire--------------//
+//-----------------ajout class btn-----------------//
 //-------------------------------------------------//
+const rond = document.getElementById("btn1");
+
+rond.addEventListener("click", () => {
+  rond.classList.toggle("btn1");
+});
