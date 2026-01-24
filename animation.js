@@ -64,3 +64,20 @@ const paragraphe = document.getElementById("texte-perroquet");
 perroquet.addEventListener("input", () => {
   paragraphe.textContent = perroquet.value;
 });
+//-------------------------------------------------//
+//------Ajout de class et de msg via un input------//
+//-------------------------------------------------//
+const pass = document.getElementById("pass-input");
+const msg = document.getElementById("message");
+
+pass.addEventListener("input", () => {
+  if (pass.value.length < 8) {
+    msg.classList.add("invalid");
+    msg.classList.remove("valid");
+    msg.textContent = "Trop court";
+  } else {
+    msg.classList.add("valid");
+    msg.classList.remove("invalid");
+    msg.textContent = "Mot de passe sécurisé";
+  }
+});

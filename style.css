@@ -1,3 +1,12 @@
+body {
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  color: white;
+}
+
 .btn1 {
   background: black;
   color: red;
@@ -16,7 +25,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-input {
+#input-perroquet {
   padding: 10px;
   font-size: 18px;
   width: 250px;
@@ -35,3 +44,31 @@ input:focus {
   color: #333;
   min-height: 30px; /* Pour garder la place même vide */
 }
+
+.box {
+  background: #333;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+/* LES CLASSES QUE TU VAS ACTIVER EN JS */
+.invalid {
+  color: #ff4757;
+} /* Rouge */
+.valid {
+  color: #2ed573;
+} /* Vert */
